@@ -1,0 +1,29 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="My Application"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+
+        <!-- SubActivity khai báo thêm vào đây -->
+        <activity
+            android:name="com.example.demorcyclelife.SubActivity"
+            android:theme="@style/Theme.AppCompat.Dialog"
+            android:exported="false" />
+
+        <!-- MainActivity -->
+        <activity
+            android:name="com.example.demorcyclelife.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

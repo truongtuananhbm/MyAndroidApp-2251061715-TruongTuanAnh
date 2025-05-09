@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Project4</string>
+    <string name="hint_name">Nhập Tên</string>
+    <string name="hint_height">Chiều Cao (m)</string>
+    <string name="hint_weight">Cân Nặng (kg)</string>
+    <string name="hint_bmi">BMI = ...</string>
+    <string name="hint_diagnosis">Chuẩn đoán</string>
+    <string name="btn_calculate">Tính BMI</string>
+</resources>
