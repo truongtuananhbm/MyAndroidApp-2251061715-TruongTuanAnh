@@ -22,7 +22,7 @@ public class MainActivity extends Activity {
         btnC = findViewById(R.id.btnC);
         btnF = findViewById(R.id.btnF);
         btnClear = findViewById(R.id.btnClear);
-        btnGoToBMI = findViewById(R.id.btnGoToBMI); // nút mới
+        btnGoToBMI = findViewById(R.id.btnGoToBMI);
 
         btnC.setOnClickListener(v -> {
             DecimalFormat df = new DecimalFormat("##.##");

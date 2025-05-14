@@ -9,25 +9,28 @@
         android:id="@+id/editTen"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:autofillHints="name"
         android:hint="@string/hint_name"
         android:inputType="textPersonName"
-        android:autofillHints="name" />
+        android:minHeight="48dp" />
 
     <EditText
         android:id="@+id/editChieuCao"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:autofillHints="height"
         android:hint="@string/hint_height"
         android:inputType="numberDecimal"
-        android:autofillHints="height" />
+        android:minHeight="48dp" />
 
     <EditText
         android:id="@+id/editCanNang"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:autofillHints="weight"
         android:hint="@string/hint_weight"
         android:inputType="numberDecimal"
-        android:autofillHints="weight" />
+        android:minHeight="48dp" />
 
     <Button
         android:id="@+id/btnTinh"
@@ -39,16 +42,19 @@
         android:id="@+id/editBMI"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:autofillHints=""
         android:hint="@string/hint_bmi"
-        android:inputType="none" />
+        android:importantForAutofill="no"
+        android:inputType="none"
+        android:minHeight="48dp" />
 
     <EditText
         android:id="@+id/editChuanDoan"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/hint_diagnosis"
-        android:inputType="none" />
-
+        android:inputType="none"
+        android:minHeight="48dp" />
 
 
 </LinearLayout>
