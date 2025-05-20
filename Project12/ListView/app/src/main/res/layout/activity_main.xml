@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/txtdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hôm nay:"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edithour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Giờ" />
+
+    <EditText
+        android:id="@+id/editmin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phút" />
+
+    <EditText
+        android:id="@+id/edtwork"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nội dung công việc" />
+
+    <Button
+        android:id="@+id/btnwork"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Work" />
+
+    <ListView
+        android:id="@+id/lv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
