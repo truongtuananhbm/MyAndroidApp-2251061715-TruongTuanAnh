@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView android:text="QUẢN LÝ SINH VIÊN" android:textSize="20sp" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+    <EditText android:id="@+id/edmalop" android:hint="Mã lớp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <EditText android:id="@+id/edtenlop" android:hint="Tên lớp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <EditText android:id="@+id/edsiso" android:hint="Sĩ số" android:inputType="number" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:id="@+id/btninsert" android:text="INSERT" android:layout_weight="1" android:layout_width="0dp" android:layout_height="wrap_content"/>
+        <Button android:id="@+id/btndelete" android:text="DELETE" android:layout_weight="1" android:layout_width="0dp" android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:id="@+id/btnupdate" android:text="UPDATE" android:layout_weight="1" android:layout_width="0dp" android:layout_height="wrap_content"/>
+        <Button android:id="@+id/btnquery" android:text="QUERY" android:layout_weight="1" android:layout_width="0dp" android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <ListView android:id="@+id/lv" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</LinearLayout>
