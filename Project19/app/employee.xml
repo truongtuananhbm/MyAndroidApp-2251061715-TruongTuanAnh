@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<employees>
+    <employee id="1" title="Architect">
+        <name>Đoàn Ái Nhưỡng</name>
+        <phone>01656152042</phone>
+    </employee>
+    <employee id="2" title="Engineer">
+        <name>Đỗ Thị Kim Chi</name>
+        <phone>0165655434</phone>
+    </employee>
+    <employee id="3" title="Teacher">
+        <name>Trần Chinh Nghĩa</name>
+        <phone>0981234567</phone>
+    </employee>
+    <employee id="4" title="Singer">
+        <name>Châu Bá Thông</name>
+        <phone>0978654321</phone>
+    </employee>
+    <employee id="5" title="Engineer">
+        <name>Kiều Phong</name>
+        <phone>0901345566</phone>
+    </employee>
+</employees>
