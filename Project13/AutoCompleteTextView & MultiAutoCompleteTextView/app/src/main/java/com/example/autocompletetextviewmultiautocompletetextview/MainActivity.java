@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
 
         selection = findViewById(R.id.selection);
         singleComplete = findViewById(R.id.editAuto);
-        multiComplete = findViewById(R.id.editMultiAutoCompleteTextView1);
+        multiComplete = findViewById(R. id.editMultiAutoCompleteTextView1);
 
         ArrayAdapter<String> adapter = new ArrayAdapter<>(
                 this, android.R.layout.simple_list_item_1, items
